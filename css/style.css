@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    background-color: red;
+    min-height: 100px;   
+}
+
+.tlacitka{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+    height: 100px;
+    width: 1600px;
+}
+
+.tlacitka a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.logo img{
+    display: flex;
+    max-width: 150px;
+    justify-content: flex-start;
+    align-items:center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
