@@ -10,6 +10,15 @@ header{
     min-height: 100px;   
 }
 
+main{
+    min-height: 700px;
+}
+
+footer{
+    background-color: grey;
+    min-height: 300px;
+}
+
 .tlacitka{
     display: flex;
     justify-content: flex-end;
@@ -39,3 +48,32 @@ header{
     align-items: center;
 }
 
+.obrazky img{
+    width: 35px; 
+}
+
+.obrazky{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+}
+
+.odkazy{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: x-large;
+}
+
+.konec{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.konec a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: xx-large;
+}
