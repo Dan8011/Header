@@ -11,12 +11,12 @@ header{
 }
 
 main{
-    min-height: 700px;
+    min-height: 500px;
 }
 
 footer{
-    background-color: grey;
-    min-height: 300px;
+    background-color: rgb(48, 48, 48);
+    min-height: 480px;
 }
 
 .tlacitka{
@@ -49,7 +49,15 @@ footer{
 }
 
 .obrazky img{
-    width: 35px; 
+    width: 35px;
+}
+
+svg{
+    transition: 0.5s ease;
+}
+
+svg:hover{
+    fill: rgb(218, 27, 27);
 }
 
 .obrazky{
@@ -59,21 +67,36 @@ footer{
     padding: 50px;
 }
 
-.odkazy{
+.kontakt ul{
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    font-size: x-large;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding-left: 300px;
+    font-size: larger;
+    align-items:flex-start ;
+    height: 100%;
+    justify-content: flex-start;
+    margin-right: 100px;
+
+}
+
+.doba ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2px;
+    padding-right: 250px;
+    font-size: larger;
 }
 
 .konec{
     display: flex;
     justify-content: center;
-    margin: 50px;
 }
 
-.konec a{
-    text-decoration: none;
-    color:aliceblue;
-    font-size: xx-large;
+.kontakt h1{
+    display: flex;
+    padding-left: 310px;
 }
